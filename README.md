@@ -29,8 +29,11 @@
   分支
   git branch  // 查看分支
   git branch <name>  // 创建新分支
-  git checkout <name> // 切换分支
-  git branch 
+  git checkout <name> // 切换分支  切换分支之前要保存commit提交版本
+  git checkout -b dev-q  // 创建并切换分支 
+  git branch -d  // 删除分支
+
+  git merge dev-s // 合并
 
 ```
 ## 添加一个HTML文件
