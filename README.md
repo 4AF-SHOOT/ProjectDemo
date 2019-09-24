@@ -31,9 +31,9 @@
   git branch <name>  // 创建新分支
   git checkout <name> // 切换分支  切换分支之前要保存commit提交版本
   git checkout -b dev-q  // 创建并切换分支 
-  git branch -d  // 删除分支
+  git branch -d <name> // 删除分支
 
-  git merge dev-s // 合并
+  git merge dev-s // 合并  冲突 =》可选
 
 ```
 ## 添加一个HTML文件
