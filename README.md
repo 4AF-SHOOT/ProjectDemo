@@ -14,12 +14,26 @@
   git reset --hard xxxx(版本号)  // 跳到指定版本
   git reset --(soft | mixed(默认) | hard) HEAD
 
-  git log
-  git reflog
+  git log   // 日志
+  git reflog   // 历史操作
 
   git rebase  // 变基 让多个版本进行合并
   git rebase -i HEAD~3   //  改为s 与上一个版本进行合并
 
-  git merge  // 合并    冲突
+  git push origin master  // 推送到远程仓库的master分支
+
+  git diff  // 改了什么
+  git dif f HEAD
+
+
+  分支
+  git branch  // 查看分支
+  git branch <name>  // 创建新分支
+  git checkout <name> // 切换分支  切换分支之前要保存commit提交版本
+  git checkout -b dev-q  // 创建并切换分支 
+  git branch -d  // 删除分支
+
+  git merge dev-s // 合并
+
 ```
 ## 添加一个HTML文件
