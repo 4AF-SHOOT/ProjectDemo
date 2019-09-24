@@ -19,5 +19,7 @@
 
   git rebase  // 变基 让多个版本进行合并
   git rebase -i HEAD~3   //  改为s 与上一个版本进行合并
+
+  git merge  // 合并    冲突
 ```
 ## 添加一个HTML文件
