@@ -23,7 +23,7 @@
   git push origin master  // 推送到远程仓库的master分支
 
   git diff  // 改了什么
-  git dif f HEAD
+  git diff HEAD
 
 
   分支
@@ -35,5 +35,15 @@
 
   git merge dev-s // 合并  冲突 =》可选
 
+  git remote add origin ssh地址  // 本地仓库与远程仓库建立联系
+
+  .gitignore
+
+
+  1. git pull origin master
+  2. git add, commit
+  3. git push origin
+
+
+
 ```
-## 添加一个HTML文件
